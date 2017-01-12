@@ -1,0 +1,2 @@
+sudo mysql --user="root" --password="pedagogieintech" --execute="CREATE USER '$1'@'localhost';"
+sudo mysql --user="root" --password="pedagogieintech" --execute="SET PASSWORD FOR $1@localhost = PASSWORD('$2')"
